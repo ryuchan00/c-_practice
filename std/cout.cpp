@@ -9,10 +9,9 @@
 using namespace std;
 
 int main() {
-    char str1[128], str2[128];
-    cout << "名前を入力してください>"; // a bと入力する
-    cin >> str1 >> str2;
-    cout << "ようこそ" << str1 << "さん\n";
-    cout << "ようこそ" << str2 << "さん\n";
+    int i,j;
+    cout << "二つの値を加算します>";
+    cin >> i >> j;
+    cout << i + j;
     return 0;
 }
