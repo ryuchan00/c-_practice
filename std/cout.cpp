@@ -9,7 +9,10 @@
 using namespace std;
 
 int main() {
-    cout << 10 << ":" << 1.15 << '\n';
-    cout << "Kitty" << "on" << "your" << "lap\n";
+    char str1[128], str2[128];
+    cout << "名前を入力してください>"; // a bと入力する
+    cin >> str1 >> str2;
+    cout << "ようこそ" << str1 << "さん\n";
+    cout << "ようこそ" << str2 << "さん\n";
     return 0;
 }
