@@ -4,12 +4,20 @@ using namespace std;
 
 class Kitty {
 public:
+    int num;
     char *str;
-} obj;
+
+    Kitty(char *, int);
+};
+
+Kitty::Kitty(char *ch, int i) {
+    str = ch;
+    num = i;
+}
 
 int main() {
-    obj.str = "Kitty on your lap";
+    Kitty obj("Kitty on your lap", 1);
     cout << obj.str;
-
+    cout << obj.num;
     return 0;
 }
