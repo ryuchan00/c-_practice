@@ -23,4 +23,3 @@ int main() {
     createKitty();
     createKitty();
     return 0;
-}
